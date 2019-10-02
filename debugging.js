@@ -4,8 +4,8 @@
 // calculateSum() calculates the sum of all the numbers between num1 to num2 *inclusive*
 // For example, if num1 were 1 and num2 were 3, it should display 1 + 2 + 3 = 6 in answer
 function calculateSum(){
-    let num1 = document.querySelector("#num1")
-    let num2 = document.querySelector("#num2")
+    let num1 = parseInt.document.querySelector("#num1").value
+    let num2 = parseInt.document.querySelector("#num2").value
     
 
     console.log("I've been clicked")
@@ -20,7 +20,7 @@ function calculateSum(){
 function sum(a, b){
     let sum = 0
 
-    for(i = a; i < b; i+=2){
+    for(i = a; i <= b; i+=1){
         sum += i
     }
 
